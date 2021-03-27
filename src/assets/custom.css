@@ -1,0 +1,59 @@
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+.login-fomr-top-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.login-form-login-button-container{
+    display: flex;
+    justify-content: center;
+}
+.siwnupwait-form-sub-text-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qr_code_size{
+    display: flex;
+     margin: auto;
+     width: 300px;
+     height: 300px;
+     
+}
+.image-file-from-s3{
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    max-width:350px;
+    max-height:300px;
+
+}
+.thumbnail_image{
+    flex: 1;
+    width: 50;
+    height: 50;
+    resize: contain;
+    aspect-ratio: 1.5;
+}
+
+@media(max-width:600px) {
+    .qr_code_size{
+        width: 300px;
+        height: 300px;
+    }
+    .image-file-from-s3{
+        width: 100%;
+    }
+    
+}
